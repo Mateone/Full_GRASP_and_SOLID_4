@@ -27,16 +27,13 @@ namespace Full_GRASP_And_SOLID
         // Agregado por Expert
         public double GetStepCost()
         {
-            return
-                (this.Input.UnitCost * this.Quantity) +
-                (this.Equipment.HourlyCost * this.Time);
+            return (this.Input.UnitCost * this.Quantity) + (this.Equipment.HourlyCost * this.Time);
         }
 
         // Agregado por SRP
         public string GetTextToPrint()
         {
-            return $"{this.Quantity} de '{this.Input.Description}' " +
-                $"usando '{this.Equipment.Description}' durante {this.Time}";
+            return $"{this.Quantity} de '{this.Input.Description}' " + $"usando '{this.Equipment.Description}' durante {this.Time}";
         }
     }
 }
