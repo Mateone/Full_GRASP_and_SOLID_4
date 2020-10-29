@@ -9,6 +9,10 @@ using System.Collections.Generic;
 
 namespace Full_GRASP_And_SOLID
 {
+    /*
+        Según el patrón Creator, la clase "Recipe" debe tener la responsabilidad de crear objetos de tipo "Step",
+        ya que los guarda en una lista.
+    */
     public class Recipe
     {
         private IList<Step> steps = new List<Step>();
