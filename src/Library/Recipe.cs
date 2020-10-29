@@ -52,5 +52,10 @@ namespace Full_GRASP_And_SOLID
 
             return result;
         }
+
+        public Step CreateStep(Product product, double quantity, Equipment equipment, int time)
+        {
+            return new Step(product, quantity, equipment, time);
+        }
     }
 }
