@@ -6,7 +6,7 @@ namespace Full_GRASP_And_SOLID
 {
     /*
         Creamos la clase ProdcutCatalog, encargada de crear objetos de Product y guardarlos en una lista (entre otras cosas),
-        ya que no tenía sentido que la clase program fuera la encargada de esta responsabilidad. Debido a que los objetos "Product"
+        ya que no tenía sentido que la clase program fuera la encargada de estas responsabilidades. Debido a que los objetos "Product"
         son guardados en dicha lista, decidimos que está los cree, aplicando así el patrón Creator.
     */
     public class ProductCatalog
